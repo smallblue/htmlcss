@@ -7,10 +7,12 @@ body{
     background:black;
     font-size:14px;
     line-height:50px;
-
+    position:fixed;
     width:100%;
+    top:0;
+    left:0;
     overflow:hidden;
-
+    z-index:999;
 
 
 
@@ -82,6 +84,7 @@ li{
     height:268px;
     background:url(images/banner.jpg) no-repeat;
     background-size:cover;
+    margin-top:50px;
 
 
 
@@ -92,8 +95,9 @@ li{
    text-align:center;
    line-height:50px;
    color:#fff;
-   margin:0;
-   padding:20px;
+   font-weight:normal;
+
+   padding:50px 0 20px 0;
 }
 
 .search{
@@ -186,6 +190,23 @@ li{
 
 
 }
+
+.footer .footer-item .a1{
+    color:#fff;
+    font-size:16px;
+    margin-top:12px;
+}
+
+.footer .footer-item .a2{
+    color:#8a8e93;
+    font-size:12px;
+    margin-top:12px;
+}
+.footer .footer-item .a3{
+    color:#08c;
+    font-size:12px;
+    margin-top:12px;
+}
 .footer-bottom:before{
         content: "";
         width: 85%;
@@ -194,8 +215,12 @@ li{
         background:#555;
         top:-5%;
 
+}
 
+.footer-bottom .left .version{
+    color:#8a8e93;
+}
 
-
-
+.footer-bottom .left .company{
+    color:#8a8e93;
 }
