@@ -1,0 +1,201 @@
+body{
+    margin-top:-20px;
+}
+
+
+.nav{
+    background:black;
+    font-size:14px;
+    line-height:50px;
+
+    width:100%;
+    overflow:hidden;
+
+
+
+
+}
+
+
+
+.logo{
+    display:block;
+    width:100%
+    height:100%
+    background:url(images/logo1.svg) no-repeat;
+    float:left;
+    margin:0 10px 0 80px;
+    padding-top:5px;
+
+
+
+}
+.nav a{
+    text-decoration:none;
+    color:#fff;
+
+
+
+}
+
+li{
+    list-style:none;
+    color:#fff;
+}
+
+.nav-left{
+    float:left;
+
+
+}
+
+.nav-right{
+    float:right;
+
+}
+
+.nav-left li{
+    float:left;
+
+    margin-left:50px;
+}
+
+.nav-right li{
+    float:left;
+    margin-right:50px;
+
+}
+
+
+.btn-nav{
+
+    height:26px;
+    width:80px;
+    background-color:#08c;
+    font-size:12px;
+    padding:8px;
+
+
+}
+
+.banner-support{
+    height:268px;
+    background:url(images/banner.jpg) no-repeat;
+    background-size:cover;
+
+
+
+
+}
+.banner-support h4{
+   font-size:32px;
+   text-align:center;
+   line-height:50px;
+   color:#fff;
+   margin:0;
+   padding:20px;
+}
+
+.search{
+    width:1110px;
+    margin:0 auto;
+    position:relative;
+}
+
+.sh-txt{
+
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    padding:0 40px 0 20px;
+}
+
+.btn-search{
+    width:21px;
+    height:21px;
+    position:absolute;
+    background:url(images/search-bg.png) no-repeat;
+    top:10px;
+    right:10px;
+    border:none;
+}
+
+.cont-support{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.cont-support .icon{
+    width:83px;
+    height:94px;
+    line-height:94px;
+    text-align:center;
+    margin-bottom:10px;
+    background:url(images/font-bg.png) no-repeat;
+
+}
+
+.cont-support .item{
+    margin:20px 20px;
+}
+
+.cont-support .item h5{
+    font-size:22px;
+    color:#fff;
+}
+
+.cont-support .item p a{
+    display:block;
+    font-size:22px;
+    color:#999;
+    font-size:12px;
+    line-height:24px;
+    white-space:onwrap;
+    text-overflow:ellipsis
+
+}
+
+.footer{
+    background:#252c34;
+    padding:20px;
+
+}
+
+
+
+.footer .footer-item p a{
+    display:block;
+    color:#fff;
+}
+
+.footer .footericon{
+    width:83px;
+    height:94px;
+    line-height:94px;
+    text-align:center;
+    margin:20px 0;
+    background:url(images/font-bg.png) no-repeat;
+
+}
+
+
+.footer-bottom{
+    background:#252c34;
+    color:#fff;
+    padding:20px 50px 20px 120px ;
+    position:relative;
+
+
+}
+.footer-bottom:before{
+        content: "";
+        width: 85%;
+        height: 1px;
+        position: absolute;
+        background:#555;
+        top:-5%;
+
+
+
+
+
+}

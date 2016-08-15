@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+.demo:before{content:''; background:#666; width:2px; height:100px; position:absolute; top:50%; left:50%; margin:-50px 0 0 -1px;
+	-webkit-animation-name:scroll;
+	-webkit-animation-duration:4s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-transform-origin:center bottom;
+	-moz-animation-name:scroll;
+	-moz-animation-duration:4s;
+	-moz-animation-timing-function:linear;
+	-moz-animation-delay:0;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-direction:normal;
+	-moz-transform-origin:center bottom;
+}
+
+@-webkit-keyframes scroll{
+	form{-webkit-transform:rotate(0deg);}
+	to{-webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes scroll{
+	form{-moz-transform:rotate(0deg);}
+	to{-moz-transform:rotate(360deg);}
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="demo">
+</div>
+</body>
+</html>
